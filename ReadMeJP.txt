@@ -15,7 +15,8 @@ Windows 95/98/Me/2000/XP/Vista/7で動作します。
 パラメーター output_file は、出力ファイルのパス名です。
 パラメーター error_file は、エラー出力ファイルのパス名です。
 
-input_file、output_file、error_file に "nul" を指定できます。
+input_file、output_file、error_file に予約デバイス名として
+NUL や CON などをを指定できます。
 
 output_file と error_file は、同じパス名でもかまいません。
 
