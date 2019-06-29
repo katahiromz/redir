@@ -17,7 +17,7 @@ The `input_file` parameter is the path name of an input file.
 The `output_file` parameter is the path name of an output file.
 The `error_file` parameter is the path name of an error file.
 
-You can specify `"nul"` for `input_file`, `output_file` and/or `error_file`.
+You can specify special device names (`NUL`, `CON` etc.) for `input_file`, `output_file` and/or `error_file`.
 
 `output_file` and `error_file` can be the same path name.
 
