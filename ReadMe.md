@@ -18,9 +18,6 @@ You can specify `"nul"` for `input_file`, `output_file` and/or `error_file`.
 
 `output_file` and `error_file` can be the same path name.
 
-/////////////////////////////////////////////////////
-// Katayama Hirofumi MZ (katahiromz) [THE ANT]
-// Homepage     http://katahiromz.web.fc2.com/eindex.html
-// BBS          http://katahiromz.bbs.fc2.com/
-// E-Mail       katayama.hirofumi.mz@gmail.com
-/////////////////////////////////////////////////////
+## Contact Us
+
+katayama.hirofumi.mz@gmail.com
