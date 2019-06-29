@@ -8,15 +8,15 @@ It works on Windows 95/98/Me/2000/XP/Vista/7.
 
 ## Usage
 
-Usage: redir input_file output_file error_file program [parameters]
+Usage: `redir input_file output_file error_file program [parameters]`
 
-The input_file parameter is the path name of an input file.
-The output_file parameter is the path name of an output file.
-The error_file parameter is the path name of an error file.
+The `input_file` parameter is the path name of an input file.
+The `output_file` parameter is the path name of an output file.
+The `error_file` parameter is the path name of an error file.
 
-You can specify "nul" for input_file, output_file and/or error_file.
+You can specify `"nul"` for `input_file`, `output_file` and/or `error_file`.
 
-output_file and error_file can be the same path name.
+`output_file` and `error_file` can be the same path name.
 
 /////////////////////////////////////////////////////
 // Katayama Hirofumi MZ (katahiromz) [THE ANT]
