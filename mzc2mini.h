@@ -208,7 +208,7 @@ public:
 protected:
     HANDLE m_hFind;
     TCHAR m_szRoot[MAX_PATH];
-#ifndef nDEBUG
+#ifndef NDEBUG
     BOOL m_bFound;
 #endif
     WIN32_FIND_DATA m_find;
