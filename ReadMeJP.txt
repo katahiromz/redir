@@ -3,21 +3,21 @@
            R E D I R
           リ デ ィ ラ
 
-これは、片山博文MZによるredirです。
+これは、片山博文MZによる redir です。
 
-redirは、標準入力、標準出力、標準エラー出力を
-リダイレクトするためのWin32コマンドラインツールです。
+redir は、標準入力、標準出力、標準エラー出力を
+リダイレクトするための Win32 コマンドラインツールです。
 Windows 95/98/Me/2000/XP/Vista/7で動作します。
 
 使い方: redir input_file output_file error_file program [parameters]
 
-パラメーターinput_file は、入力ファイルのパス名です。
-パラメーターoutput_file は、出力ファイルのパス名です。
-パラメーターerror_file、エラー出力ファイルのパス名です。
+パラメーター input_file は、入力ファイルのパス名です。
+パラメーター output_file は、出力ファイルのパス名です。
+パラメーター error_file は、エラー出力ファイルのパス名です。
 
-input_file、output_file、error_fileに "nul" を指定できます。
+input_file、output_file、error_file に "nul" を指定できます。
 
-output_fileとerror_fileは、同じパス名でもかまいません。
+output_file と error_file は、同じパス名でもかまいません。
 
 /////////////////////////////////////////////////////
 // 片山博文MZ (katahiromz) [蟻]
