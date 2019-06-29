@@ -39,12 +39,35 @@ rd_convert_cmdline_param(const std::string& str) {
     return result;
 }
 
+void usage(void)
+{
+    puts("Usage: redir input_file output_file error_file program [parameters]");
+}
+
+void show_version(void)
+{
+    puts("redir 1.0 by katahiromz");
+}
+
 int main(int argc, char **argv)
 {
-    if (argc < 4 ||
-        lstrcmpiA(argv[1], "/?") == 0 || lstrcmpiA(argv[1], "--help") == 0)
+    if (argc >= 2)
     {
-        printf("Usage: redir input_file output_file error_file program [parameters]");
+        if (lstrcmpiA(argv[1], "/?") == 0 || lstrcmpiA(argv[1], "--help") == 0)
+        {
+            usage();
+            return 0;
+        }
+        if (lstrcmpiA(argv[1], "--version") == 0)
+        {
+            show_version();
+            return 0;
+        }
+    }
+
+    if (argc < 4)
+    {
+        usage();
         return 0;
     }
 
