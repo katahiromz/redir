@@ -40,7 +40,7 @@ void MzcSplit(std::vector<tstring>& v, const tstring& s, LPCTSTR separators)
     }
 }
 
-void Join(tstring& s, const std::vector<tstring>& v, LPCTSTR separator)
+void MzcJoin(tstring& s, const std::vector<tstring>& v, LPCTSTR separator)
 {
     std::size_t i, c;
 

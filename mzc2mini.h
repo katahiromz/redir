@@ -59,7 +59,7 @@
 
 void MzcSplit(std::vector<tstring>& v, const tstring& s, TCHAR separator);
 void MzcSplit(std::vector<tstring>& v, const tstring& s, LPCTSTR separators);
-void Join(tstring& s, const std::vector<tstring>& v, LPCTSTR separator);
+void MzcJoin(tstring& s, const std::vector<tstring>& v, LPCTSTR separator);
 
 ////////////////////////////////////////////////////////////////////////////
 // MZC2 MSecurityAttributes
