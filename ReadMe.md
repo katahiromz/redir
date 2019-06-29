@@ -1,5 +1,8 @@
 # redir by katahiromz
 
+[![Travis Build Status](https://travis-ci.org/katahiromz/redir.svg?branch=master)](https://travis-ci.org/katahiromz/redir)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/lg6nyqil9utjn961?svg=true)](https://ci.appveyor.com/project/katahiromz/redir)
+
 This is `redir` by Katayama Hirofumi MZ.
 
 `redir` is a Win32 command line tool to redirect 
