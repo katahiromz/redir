@@ -775,7 +775,7 @@ tstring MFindFile::GetFilePath() const
     lstrcpy(szPath, m_szRoot);
     MzcAddBackslash(szPath);
     lstrcat(szPath, GetFileName());
-    return szPath;
+    return tstring(szPath);
 }
 
 LPCTSTR MFindFile::GetRoot() const

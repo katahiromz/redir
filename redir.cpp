@@ -8,6 +8,9 @@
 #include <cstdlib>
 #include <cstdio>
 #include <cstring>
+using std::size_t;
+using std::puts;
+using std::fprintf;
 
 #include <windows.h>
 
@@ -51,6 +54,8 @@ void show_version(void)
 
 int main(int argc, char **argv)
 {
+    using namespace std;
+
     if (argc >= 2)
     {
         if (lstrcmpiA(argv[1], "/?") == 0 || lstrcmpiA(argv[1], "--help") == 0)

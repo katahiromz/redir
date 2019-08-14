@@ -1,0 +1,23 @@
+# Makefile for Borland C++ Compiler 5.5.1
+# Usage: make -f Makefile.bcc32
+
+CPPFLAGS=
+
+DOTOBJ=.obj
+DOTEXE=.exe
+
+OBJS=redir$(DOTOBJ) mzc2mini$(DOTOBJ)
+
+all: redir$(DOTEXE)
+
+redir$(DOTEXE): $(OBJS)
+	bcc32 -WC $(CPPFLAGS) -eredir $(OBJS)
+
+redir$(DOTOBJ): mzc2mini.h redir.cpp
+	bcc32 -WC $(CPPFLAGS) -c redir.cpp
+
+mzc2mini$(DOTOBJ): mzc2mini.h mzc2mini.cpp
+	bcc32 -WC $(CPPFLAGS) -c mzc2mini.cpp
+
+clean:
+	if exist *.obj del *.obj
